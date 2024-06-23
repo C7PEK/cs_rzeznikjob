@@ -1,0 +1,37 @@
+1.Wejdź w folder ox_inventory/web/images
+
+2. Wklej wszystkie pliki .png z folderu install w cs_rzeznikjob
+
+3. Wejdź w folder ox_inventory/data/items.lua
+
+4. Wklej text poniżej do items.lua
+
+	["kurczak"] = {
+        label = "Kurczak",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'kurak.png',
+		},
+    },
+
+	["przerobionykurczak"] = {
+        label = "Pierś z Kurczaka",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'cycek.png',
+		},
+    },
+
+	["zapakowanykurczak"] = {
+        label = "Zapakowana Pierś z Kurczaka",
+        weight = 1,
+        stack = true,
+        close = true,
+		client = {
+			image = 'paczka.png',
+		},
+    },
